@@ -121,3 +121,23 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 414px) {
+  .transform a::after, .stand-out a::after {
+    left: 82px;
+  }
+}
+@media (max-width: 390px) {
+  .transform a::after, .stand-out a::after {
+    left: 70px;
+  }
+}
+@media (max-width: 375px) {
+  .transform a::after, .stand-out a::after {
+    left: 62px;
+  }
+}
+@media (max-width: 360px) {
+  .transform a::after, .stand-out a::after {
+    left: 55px;
+  }
+}
